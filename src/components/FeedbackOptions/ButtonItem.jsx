@@ -15,8 +15,8 @@ const ButtonItem = ({ children, onLeaveFeedback }) => {
 export default ButtonItem;
 
 ButtonItem.propTypes = {
-  children: PropTypes.string,
-  onLeaveFeedback: PropTypes.func,
+  children: PropTypes.string.isRequired,
+  onLeaveFeedback: PropTypes.func.isRequired,
 };
 
 // const ButtonItem = ({ children, onClick }) => {

@@ -12,8 +12,8 @@ const FeedbackItem = ({ children, value, decoration }) => {
 export default FeedbackItem;
 
 FeedbackItem.propTypes = {
-  children: PropTypes.string,
-  value: PropTypes.number,
+  children: PropTypes.string.isRequired,
+  value: PropTypes.number.isRequired,
   decoration: PropTypes.string,
 };
 
