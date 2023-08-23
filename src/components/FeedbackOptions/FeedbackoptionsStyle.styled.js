@@ -7,6 +7,7 @@ const FeedbackOptionsStyle = styled.ul`
   column-gap: 20px;
   justify-content: center;
   button {
+    text-transform: capitalize;
     padding: 5px 10px;
     cursor: pointer;
     border: none;
